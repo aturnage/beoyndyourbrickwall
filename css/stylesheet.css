@@ -4,11 +4,13 @@
 body, html{
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 .container{
   position: realtive;
   text-align: center;
   color: white;
+  margin: 0;
 }
 .mainPic{
   width: 100%;
@@ -35,3 +37,33 @@ body, html{
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
+.description{
+  background-color: white;
+  margin: 0;
+}
+.descriptionText{
+  margin: 0;
+  padding: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color:  rgba(236, 182, 92, 1)
+}
+.formheader{
+  text-align: center;
+  background-color:rgba(204, 77, 6, 1);
+  padding: 25px;
+  opacity: 0.9;
+  background-image: url("../images/freedom.jpg")
+
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.labelAlign{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 0px
+}
+input, textarea{
+  width: 600px;
+  border-radius: 5px;
+};
