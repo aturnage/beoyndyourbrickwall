@@ -32,8 +32,8 @@ body, html{
 }
 .phrase{
   position: absolute;
-  top: 100px;
-  left: 0px;
+  /* top: 100px;
+  left: 0px; */
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
