@@ -6,12 +6,12 @@
     height: 50px;
   }
   .title{
-    font-size: 50px;
+    font-size: 75px;
     color: rgba(236, 182, 92, 1)
   }
   .phrase{
     position: absolute;
-    font-size: 35px;
+    font-size: 50px;
     color: white;
     left: 0px;
   }
@@ -29,7 +29,54 @@
     padding: 5px 0px;
   }
 }
-
+@media screen and (max-width: 1400px){
+  .topLeft{
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    height: 50px;
+  }
+  .title{
+    font-size: 50px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    left: 0px;
+  }
+@media screen and (max-width: 1024px){
+  .topLeft{
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    height: 50px;
+  }
+  .title{
+    font-size: 30px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    left: 0px;
+  }
+  .descriptionText{
+    margin: 0;
+    padding: 30px;
+    color:  rgba(236, 182, 92, 1);
+    font-size: 30px;
+  }
+  input, textarea{
+    width: 500px;
+    border-radius: 5px;
+  }
+  .labelAlign{
+    padding: 5px 0px;
+  }
+}
 @media screen and (max-width: 880px){
   .topLeft{
     position: absolute;
@@ -43,7 +90,7 @@
   }
   .phrase{
     position: absolute;
-    font-size: 30px;
+    font-size: px;
     color: white;
     left: 0px;
   }
