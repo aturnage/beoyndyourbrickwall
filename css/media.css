@@ -1,0 +1,26 @@
+@media screen and (max-width: 414px){
+  .topLeft{
+    height: 30px;
+  }
+  .title{
+    font-size: 10px;
+  }
+  .phrase{
+    font-size: 10px;
+    color: purple;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px){
+  .topLeft{
+    height: 50px;
+  }
+  .title{
+    font-size: 10px;
+  }
+  .phrase{
+    font-size: 10px;
+    color: rgba(236, 182, 92, 1);
+    text-align: center;
+  }
+}
