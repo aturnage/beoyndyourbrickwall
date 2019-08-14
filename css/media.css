@@ -1,14 +1,160 @@
-@media screen and (max-width: 414px){
+@media screen and (max-width: 2048px){
   .topLeft{
-    height: 30px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    height: 50px;
   }
   .title{
-    font-size: 10px;
+    font-size: 50px;
+    color: rgba(236, 182, 92, 1)
   }
   .phrase{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    left: 0px;
+  }
+  .descriptionText{
+    margin: 0;
+    padding: 30px;
+    color:  rgba(236, 182, 92, 1);
+    font-size: 30px;
+  }
+  input, textarea{
+    width: 500px;
+    border-radius: 5px;
+  }
+  .labelAlign{
+    padding: 5px 0px;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .topLeft{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 50px;
+  }
+  .title{
+    font-size: 50px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 768px){
+  .topLeft{
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    height: 50px;
+  }
+  .title{
+    font-size: 30px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    left: 0px;
+  }
+  .descriptionText{
+    margin: 0;
+    padding: 30px;
+    color:  rgba(236, 182, 92, 1);
+    font-size: 30px;
+  }
+  input, textarea{
+    width: 500px;
+    border-radius: 5px;
+  }
+  .labelAlign{
+    padding: 5px 0px;
+  }
+}
+@media screen and (max-width: 680px){
+  .topLeft{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 50px;
+  }
+  .title{
+    font-size: 30px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    left: 0px;
+  }
+  .descriptionText{
+    margin: 0;
+    padding: 10px;
+    color:  rgba(236, 182, 92, 1)
+  }
+  input, textarea{
+    width: 350px;
+    border-radius: 5px;
+  }
+  .labelAlign{
+    padding: 5px 0px;
+  }
+}
+@media screen and (max-width: 620px){
+  .topLeft{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 50px;
+  }
+  .title{
+    font-size: 20px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 414px){
+  .topLeft{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 50px;
+  }
+  .title{
+    font-size: 15px;
+    color: rgba(236, 182, 92, 1)
+  }
+  .phrase{
+    position: absolute;
     font-size: 10px;
-    color: purple;
-    text-align: center;
+    color: white;
+    left: 0px;
+  }
+  .descriptionText{
+    margin: 0;
+    padding: 10px;
+    color:  rgba(236, 182, 92, 1)
+  }
+  input, textarea{
+    width: 200px;
+    border-radius: 5px;
+  }
+  .labelAlign{
+    padding: 5px 0px;
   }
 }
 @media screen and (max-width: 320px){
