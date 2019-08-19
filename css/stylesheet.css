@@ -55,4 +55,9 @@ body, html{
 input, textarea{
   width: 600px;
   border-radius: 5px;
-};
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px;
+}
